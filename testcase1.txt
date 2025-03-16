@@ -1,0 +1,37 @@
+
+%Test Case 1: Syntactically correct testcase
+%Following program computes an arithmetic expression 
+
+% The following function computes the function value for the given inputs 
+_myFunction input parameter list[int d3, int d4, int d5]
+output parameter list [real g6];
+	type real : d4cfgfgd5677;
+	type real : c4bb;
+	g6 <--- 1235423.79;
+	d4cfgfgd5677<--- ((d3 + 2*d4)-(d5-5))/ 4;
+	c4bb <--- ((d4cfgfgd5677- 3.25)*(2345-234*8))+5*d3;
+	if((~(c4bb == 0)) &&& (c4bb > 99.67)) 
+	then
+		g6<--- d4cfgfgd5677/c4bb;
+	else
+		write(c4bb);
+	endif
+
+	return [g6];
+end
+
+
+%The following program computes the function value for the user defined input
+_main 
+	type int : b5;
+	type int : d5ff67;
+	type int :  b3b564 : global;
+	type real: c3;
+	b5 <--- 1;
+	read(d5ff67);
+	read(b3b564);
+
+	[c3] <--- call _computeFunctionValue with parameters [b5, d5ff67, b3b444];
+	write(c3);
+	return;
+end

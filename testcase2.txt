@@ -1,0 +1,61 @@
+%Test Case 2:syntactically correct as per the modified LL(1) grammar.
+
+
+_unionfunction  input parameter list [record #two d5cc34, #point b5c6]  
+output parameter list[real d3];
+
+	record #two
+		type #point: beginpoint;
+		type #point: endpoint;
+	endrecord
+
+
+	type record #two : b578dg567;
+	type record #one : bhkgh3;
+	type #point: d5;
+	b578dg567 <--- c676*2;
+	bhkgh3 <--- c676-c3;
+	while ( b578dg567 <= d5csfac34)
+		read(c3bd);
+		dghfg3 <--- dghfg3 + c3bd;
+		b578dg567 <--- b578dg567 + 432;
+	endwhile
+	return [dghfg3];
+end
+% type checking will be required in stage 2. Despite some type errors, undeclared variables etc the code is syntactically correct
+%in this function.
+_main 
+	record #one
+		type real:xdg;
+		type real:dffbd;
+	endrecord	
+	definetype record #one as #point
+	definetype record #two as #line
+	union #four
+		type #line : lndfb; 
+		type #point: ptdfb; 
+		type #traingle:trfbd;
+	endunion
+        definetype record #three as #triangle  
+	record #three 
+		type #line: base;
+		type #line: height;
+	endrecord
+	definetype union #four as #shape
+	record #variantrecord
+		type int: tagdfb;
+		type #shape: dfbs;
+	endrecord
+
+	type record #variantrecord : d4;
+	type int : bsfgsbfs5;
+	type int : d5cb34567;
+	type record #variantrecord: b5cfdfhdf6;
+	b5cfdfhdf6 <--- b5cfdfhdf6.tag + d4.s.ln.beginpoint.x - b5cfdfhdf6.s.tr.base.beginpoint.y; 
+	bsfgsbfs5 <--- bsfgsbfs5 +1;
+	dgjfhf4 <--- b5cfdfhdf6 / d5cb34567;
+	write(dgjfhf4);
+	write(dgjfhf4.s.ln.beginpoint.x );
+	write(b5cfdfhdf6.tag );
+	return;
+end
